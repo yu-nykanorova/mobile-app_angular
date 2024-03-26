@@ -1,0 +1,9 @@
+@import 'vars';
+@import 'base';
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

@@ -1,0 +1,36 @@
+html,
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 1px;
+}
+
+body {
+	font-family: var(--font-family);
+	background: --c-white;
+	font-size: 16rem;
+}
+
+.section-title {
+    font-weight: 300;
+    font-size: 24rem;
+    color: var(--c-main-text);
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+.material-icons {
+    color: var(--c-icon);
+}
+

@@ -1,0 +1,10 @@
+<h1 class="section-title">Daily Tasks:</h1>
+
+<div class="list">
+    <div class="title" *ngFor="let document of tasks" [ngClass]="document.class">
+        <div>{{document.title}}</div>
+        <div class="num">{{document.num}}</div>
+    </div>
+</div>
+
+<div class="progress">Your overall progress is <span>{{progress.value}}</span></div>

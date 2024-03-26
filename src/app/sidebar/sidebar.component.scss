@@ -1,0 +1,9 @@
+@import 'vars';
+@import 'base';
+
+:host {
+    display: flex;
+    justify-content: space-between;
+    padding: 40rem 0 30rem;
+}
+

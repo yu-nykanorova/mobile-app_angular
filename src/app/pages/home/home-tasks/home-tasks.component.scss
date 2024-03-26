@@ -1,0 +1,50 @@
+@import 'vars';
+@import 'base';
+
+.list {
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+    margin-bottom: 15rem;
+}
+
+.title {
+    width: 90rem;
+    height: 90rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15rem;
+    padding: 12rem;
+    font-weight: 400;
+    font-size: 10rem;
+}
+
+.blue-task {
+    background: var(--c-bg-blue);
+    color: #61598b;
+}
+.red-task {
+    background: var(--c-bg-red);
+    color: #ff3726;
+}
+.green-task {
+    background: var(--c-bg-green);
+    color: #479696;
+}
+
+.num {
+    font-weight: 500;
+    font-size: 24rem;
+}
+
+.progress {
+    font-weight: 300;
+    font-size: 18rem;
+    color: var(--c-main-text);
+}
+
+.progress span {
+    font-weight: 400;
+    color: #c93f8d;
+}

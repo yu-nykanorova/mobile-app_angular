@@ -1,0 +1,33 @@
+@import 'vars';
+@import 'base';
+
+h1 {
+    margin-bottom: 26rem;
+    margin-bottom: 15rem;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+.title {
+    border-radius: 15rem;
+    max-width: 153rem;
+    padding: 20rem 30rem 22rem 20rem;
+    font-weight: 500;
+    font-size: 12rem;
+    color: var(--c-white);
+}
+
+.pink-news {
+    box-shadow: 0 15px 25px 0 rgba(115, 78, 133, 0.15);
+    background: linear-gradient(90deg, #25196b 0%, #d994a7 100%);
+}
+
+.green-news {
+    box-shadow: 0 15px 25px 0 rgba(90, 116, 142, 0.15);
+    background: linear-gradient(90deg, #25196b 0%, #94d9b4 100%);
+}
